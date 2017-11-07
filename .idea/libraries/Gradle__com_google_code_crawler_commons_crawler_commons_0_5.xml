@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.code.crawler-commons:crawler-commons:0.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.crawler-commons/crawler-commons/0.5/563b0f7b50cf40cc9074749ad64197a78252271b/crawler-commons-0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.crawler-commons/crawler-commons/0.5/2dd4c54fd96651f3d5199ef6d4d088c26de5bf6/crawler-commons-0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

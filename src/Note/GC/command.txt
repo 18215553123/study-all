@@ -1,0 +1,7 @@
+-Xms512M 堆（Heap）
+-Xmx512M
+
+-XX:PermSize=128m 持久代（Perm）
+-XX:MaxPermSize=128m
+
+-Dfile.encoding=GBK

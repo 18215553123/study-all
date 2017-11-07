@@ -1,0 +1,5 @@
+##Just Fight Hard
+@Intro
+    这个包是学习设计模式用的
+@Book
+    设计模式：可复用面向对象软件的基础

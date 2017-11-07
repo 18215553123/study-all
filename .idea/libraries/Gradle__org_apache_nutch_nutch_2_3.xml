@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.nutch:nutch:2.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.nutch/nutch/2.3/768b39705596e4f789e994b41d8e787cf9886435/nutch-2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.nutch/nutch/2.3/601598daa586f4334e6a741fafd57d50401a1d1d/nutch-2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

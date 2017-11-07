@@ -1,0 +1,27 @@
+1.hibernate的是三种状态？@Url:http://www.cnblogs.com/xiaoluo501395377/p/3380270.html
+答：hibernate有三种状态，transient(瞬时状态)，persistent(持久化状态)以及detached(离线状态)，大家伙也许也知道这三者之间的区别，
+比如瞬时状态就是刚new出来一个对象，还没有被保存到数据库中，持久化状态就是已经被保存到数据库中，离线状态就是数据库中有，但是session中不存在该对象。
+2.8种基本数据类型？
+答：int,short,long,double,float,byte,boolean,char
+3.String是不是基本数据类型？
+答：不是
+4.springmvc的工作原理？
+答：SpringMVC运行原理  @Url:http://blog.csdn.net/cswhale/article/details/16941281
+  1. 客户端请求提交到DispatcherServlet
+  2. 由DispatcherServlet控制器查询一个或多个HandlerMapping，找到处理请求的Controller
+  3. DispatcherServlet将请求提交到Controller
+  4. Controller调用业务逻辑处理后，返回ModelAndView
+  5. DispatcherServlet查询一个或多个ViewResoler视图解析器，找到ModelAndView指定的视图
+  6. 视图负责将结果显示到客户端
+5.class的加载机制，classloader。@Url:http://blog.csdn.net/gfangxiong/article/details/7425563
+答：1.Java中的所有类，必须被装载到jvm中才能运行，这个装载工作是由jvm中的类装载器完成的，
+    类装载器所做的工作实质是把类文件从硬盘读取到内存中
+    4.类加载的动态性体现
+        一个应用程序总是由n多个类组成，Java程序启动时，并不是一次把所有的类全部加载后再
+    运行，它总是先把保证程序运行的基础类一次性加载到jvm中，其它类等到jvm用到的时候再加载，这样的好处是节省了内存的开销，
+    因为java最早就是为嵌入式系统而设计的，内存宝贵，这是一种可以理解的机制，而用到时再加载这也是java动态性的一种体现
+6.Servlet生命周期与工作原理？@Url:http://www.cnblogs.com/cuiliang/archive/2011/10/21/2220671.html
+答：Servlet生命周期分为三个阶段：
+  　　1，初始化阶段  调用init()方法
+  　　2，响应客户请求阶段　　调用service()方法
+  　　3，终止阶段　　调用destroy()方法

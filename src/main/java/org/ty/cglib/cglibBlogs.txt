@@ -1,0 +1,4 @@
+@Url:http://blog.csdn.net/xiaohai0504/article/details/6832990
+*动态代理{
+
+}

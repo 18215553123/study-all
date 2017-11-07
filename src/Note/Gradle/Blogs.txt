@@ -1,0 +1,2 @@
+@Url:http://www.cnblogs.com/davenkin/p/gradle-learning-4.html
+@Url:http://blog.csdn.net/bolg_hero/article/details/50418669 //打包发布到Nexus
